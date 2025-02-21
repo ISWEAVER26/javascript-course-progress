@@ -1,3 +1,22 @@
+
+// VARIABLES AND CONSOLE LOG
+//---------------------------------------------------------------------//
+
+/*
+Variables cannot start with num
+
+Variables can only contain numbers, letters, _ or $
+
+Variables cannot be called 'new' or 'function',
+workaround is _new or $new
+
+Bad practise to call a variable 'name'
+
+Bad practise to start a variable name with a capital
+
+allcaps is used only for constants, e.g. PI = 3.14
+*/
+
 let js = 'amazing';
 console.log(40 + 8 + 23 - 10);
 
@@ -10,34 +29,19 @@ console.log(firstName)
 
 let PI = 3.14;
 
-/*
-variable cannot ztart with num
-
-variable can only contain: num, letter, _ , $
-
-variable cannot be called 'new' or 'function',
-workaround is _new or $new
-
-bad practise to call variable 'name'
-
-bad practise to start var name with capital
-
-allcaps is used only for real constants, e.g. PI = 3.14
-*/
+// Which of these variables is named more descriptively?
 
 let myFirstJob = 'warehouse'
 let myFutureJob = 'programmer'
-
-// Which of these variables is named more descriptively?
 
 let job1 = 'warehouse'
 let job2 = 'programmer'
 
 console.log(myFirstJob);
 
-console.log('Assignment: ');
+// Video assignment 1
 
-// Coding assignment 1
+console.log('Assignment: ');
 let country = 'United Kingdom';
 let continent = 'Europe';
 let population = '68.35m';
@@ -45,6 +49,7 @@ let population = '68.35m';
 console.log(country);
 console.log(continent);
 console.log(population);
+
 
 
 // DATA TYPES
@@ -66,6 +71,8 @@ console.log(javascriptIsFun);
 console.log(typeof javascriptIsFun);
 console.log(typeof 23);
 
+
+
 // LET CONST AND VAR
 //---------------------------------------------------------------------//
 let age = 30;
@@ -80,6 +87,7 @@ const birthYear = 1991;
 // Good practise to use const majority of the time
 
 // ALWAYS declare variable properly, dont do it python way (count = 0;)
+
 
 
 // STRINGS AND TEMPLATE LITERALS
@@ -97,6 +105,8 @@ ON
 Several
 LINES`)
 
+
+
 // IF ELSE STATEMENTS
 //---------------------------------------------------------------------//
 // Driving test age checker mini program
@@ -108,6 +118,7 @@ if(age2 >= 18) {
       const yearsLeft = 18 - age2
       console.log(`You have ${yearsLeft} years left :(`)
 }
+
 
 
 // TYPE CONVERSION AND COERCION
@@ -138,6 +149,7 @@ console.log('23' + '10' + 3) // = 23103
 // Coercion also works with * and /, as them operators have no other uses
 
 
+
 // TRUTHY AND FALSY VALUES
 //---------------------------------------------------------------------//
 
@@ -161,6 +173,7 @@ if (height){
 }
 
 
+
 // EQUALITY OPERATORS == vs ===
 //---------------------------------------------------------------------//
 
@@ -174,6 +187,7 @@ const age4 = '18';
 if (age4 == 18) console.log('You just became adult');
 
 // Best practise, use === and convert manually
+
 
 
 // PROMPTS - EQUALITY OPERATORS cont.
@@ -213,6 +227,7 @@ if (favouriteNum !== 23) {
 }
 
 
+
 // LOGICAL OPERATORS
 //---------------------------------------------------------------------//
 
@@ -234,6 +249,7 @@ if (canDrive) {
 } else if (!hasGoodVision) {
       console.log('You need glasses')
 }
+
 
 
 // SWITCH STATEMENTS
@@ -283,12 +299,10 @@ if (23 > 10) {                      <--- EXP because returns True
 
 
 
-
 // CONDITIONAL OPERATOR
 //---------------------------------------------------------------------//
 
 // Allows us to write an if else statement in one line
-
 
 const age5 = 12;
 /*
